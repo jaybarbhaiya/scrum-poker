@@ -1,0 +1,32 @@
+{
+	"sap.app": {
+		"id": "scrumpoker",
+		"type": "application"
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "scrumpoker.view.App",
+			"type": "XML",
+			"id": "app"
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "scrumpoker.i18n.messageBundle"
+				}
+			},
+			"": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": "/model/spvalues.json"
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/styles.css"
+				}
+			]
+		}
+	}
+}
