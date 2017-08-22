@@ -1,0 +1,13 @@
+{
+  "name": "scrum-poker",
+  "version": "0.1.0",
+  "description": "SCRUM POKER application using OpenUI5, NodeJS and SAP Cloud Foundry",
+  "readme": "README.md",
+  "private": true,
+  "scripts": {
+
+  },
+  "dependencies": {
+    "express": "*"
+  }
+}
